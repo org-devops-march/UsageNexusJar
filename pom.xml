@@ -7,6 +7,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>usagenexusJar</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,4 +16,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+    <repositories>
+       <repository>
+         <id>coreengine-proxy1</id>
+         <name>coreengine-proxy1</name>
+         <url>http://ec2-54-75-152-253.eu-west-1.compute.amazonaws.com:8081/repository/coreengine-proxy/</url>
+       </repository>
+     </repositories>
+  
 </project>
